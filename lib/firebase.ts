@@ -12,4 +12,5 @@ export const firebaseConfig = {
 // Proxy API base URL — point to your Fujitsu server
 // The proxy server runs on port 20129 of the Fujitsu machine
 // For production: set up a permanent tunnel or use a fixed domain
-export const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:20129';
+export const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://practical-acquired-connector-effects.trycloudflare.com';
+// ↑ Replace with your permanent Cloudflare tunnel URL once configured
